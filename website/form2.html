@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log-in</title>
+	<style type="text/css">
+		input{
+			width: 400px;
+			height: 35px;
+			border-radius: 45px 50px;
+			border: 2px solid blue;
+			font-size: 20px;
+		}
+		#btn{
+			background-color: green;
+			color: #fff;
+			font-size: 20px;
+			border-radius: 45px 50px;
+		}
+		#btn:hover{
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<form action="#" autocomplete="off" onsubmit="return validation()">
+		<table cellspacing="15" align="center">
+			<tr><td><input type="text" id="user" placeholder="user">
+                <span id="userr"></span>
+			</td></tr>
+			<tr><td><input type="Password" id="pass" placeholder="Password">
+                <span id="passs"></span> 
+			</td></tr>
+			<tr><td><input type="Password" id="conpass" placeholder="Confirm Password">
+                    <span id="conpasss"></span>
+			</td></tr>
+			<tr><td><input type="text" id="email" placeholder="Email">
+                <span id="emaill"></span>
+			</td></tr>
+			<tr><td><input type="text" id="mobile" placeholder="Mobile">
+                <span id="mobilee"></span>
+			</td></tr>
+			<tr><td><input type="submit" id="btn" placeholder="user"></td></tr>
+		</table>		
+	</form>
+</body>
+</html>
